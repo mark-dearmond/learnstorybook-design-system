@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=40966a6de524"
   },
   "eslintConfig": {
     "extends": [
@@ -53,9 +54,12 @@
   "devDependencies": {
     "@storybook/addon-actions": "^6.4.17",
     "@storybook/addon-essentials": "^6.4.17",
+    "@storybook/addon-interactions": "^6.4.17",
     "@storybook/addon-links": "^6.4.17",
     "@storybook/node-logger": "^6.4.17",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.4.17"
+    "@storybook/react": "^6.4.17",
+    "@storybook/testing-library": "^0.0.8",
+    "chromatic": "^6.4.3"
   }
 }

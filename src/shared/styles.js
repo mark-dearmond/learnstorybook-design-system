@@ -25,8 +25,7 @@ export const color = {
   // Monochrome
   lightest: "#FFFFFF",
   lighter: "#F8F8F8",
-  // light: '#F3F3F3',
-  light: "#ddd",
+  light: "#F3F3F3",
   mediumlight: "#EEEEEE",
   medium: "#DDDDDD",
   mediumdark: "#999999",
