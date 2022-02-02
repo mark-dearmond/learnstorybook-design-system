@@ -21,7 +21,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook  --docs",
-    "chromatic": "npx chromatic --project-token=40966a6de524"
+    "chromatic": "npx chromatic --project-token=40966a6de524",
+    "release": "auto shipit --base-branch=main"
   },
   "eslintConfig": {
     "extends": [
